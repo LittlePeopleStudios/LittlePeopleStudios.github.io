@@ -1,140 +1,24 @@
-<!DOCTYPE html>
-<html lang="es">
-    <title>LittlePeopleStudios</title>
-    <!DOCTYPE html>
-<html lang="es">
-    <!DOCTYPE html>
-    <html lang="es">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Página Neon Gaming</title>
-        <style>
-            /* Estilos generales */
-            body {
-                font-family: 'Orbitron', sans-serif; /* Fuente gaming */
-                background-color: #0a0a0a; /* Fondo oscuro */
-                color: #00ffcc; /* Texto neón cian */
-                margin: 0;
-                padding: 0;
-                line-height: 1.6;
-            }
-    
-            /* Encabezado */
-            header {
-                background-color: #111; /* Fondo oscuro */
-                padding: 20px;
-                text-align: center;
-                border-bottom: 3px solid #00ffcc; /* Borde neón cian */
-                box-shadow: 0 0 10px #00ffcc; /* Sombra neón */
-            }
-    
-            header h1 {
-                font-size: 3rem;
-                margin: 0;
-                color: #00ffcc; /* Neón cian */
-                text-shadow: 0 0 10px #00ffcc, 0 0 20px #00ffcc; /* Efecto neón */
-            }
-    
-            /* Navegación */
-            nav ul {
-                list-style: none;
-                padding: 0;
-                margin: 0;
-                display: flex;
-                justify-content: center;
-                gap: 20px;
-            }
-    
-            nav ul li a {
-                text-decoration: none;
-                color: #ff00ff; /* Neón magenta */
-                font-weight: bold;
-                font-size: 1.2rem;
-                padding: 5px 10px;
-                border: 2px solid #ff00ff; /* Borde neón magenta */
-                border-radius: 5px;
-                transition: background-color 0.3s, color 0.3s, box-shadow 0.3s;
-            }
-    
-            nav ul li a:hover {
-                background-color: #ff00ff; /* Fondo neón magenta */
-                color: #0a0a0a; /* Texto oscuro */
-                box-shadow: 0 0 10px #ff00ff, 0 0 20px #ff00ff; /* Efecto neón */
-            }
-    
-            /* Contenido principal */
-            main {
-                padding: 20px;
-                background-color: #111; /* Fondo oscuro */
-                border: 3px solid #00ffcc; /* Borde neón cian */
-                margin: 20px;
-                border-radius: 10px;
-                box-shadow: 0 0 10px #00ffcc, 0 0 20px #00ffcc; /* Efecto neón */
-            }
-    
-            section {
-                margin-bottom: 30px;
-            }
-    
-            section h2 {
-                font-size: 2rem;
-                color: #00ffcc; /* Neón cian */
-                text-shadow: 0 0 10px #00ffcc, 0 0 20px #00ffcc; /* Efecto neón */
-                border-bottom: 2px solid #00ffcc; /* Borde neón cian */
-                padding-bottom: 5px;
-            }
-    
-            section p {
-                font-size: 1.1rem;
-                color: #ffffff; /* Texto blanco */
-            }
-    
-            /* Pie de página */
-            footer {
-                background-color: #111; /* Fondo oscuro */
-                padding: 15px;
-                text-align: center;
-                border-top: 3px solid #00ffcc; /* Borde neón cian */
-                color: #00ffcc; /* Neón cian */
-                margin-top: 20px;
-                box-shadow: 0 0 10px #00ffcc; /* Efecto neón */
-            }
-    
-            footer a {
-                color: #ff00ff; /* Neón magenta */
-                text-decoration: none;
-                margin: 0 10px;
-                font-weight: bold;
-                transition: text-shadow 0.3s;
-            }
-    
-            footer a:hover {
-                text-shadow: 0 0 10px #ff00ff, 0 0 20px #ff00ff; /* Efecto neón */
-            }
-        </style>
-        <!-- Fuente de Google Fonts para el estilo gaming -->
-        <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
-
+<!DOCTYPE html lang="es">
 <head>
+    <title>LittlePeopleStudios</title>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Título de la Página</title>
-    <meta name="description" content="Descripción breve de la página">
-    <meta name="keywords" content="palabras clave, separadas, por comas">
-    <meta name="author" content="Nombre del Autor">
-    <link rel="stylesheet" href="styles.css"> <!-- Enlace a tu archivo CSS -->
-    <link rel="icon" href="favicon.ico" type="image/x-icon"> <!-- Favicon -->
+    <meta name="description" content="Little People Studios se dedica a realizar juegos indie.">
+    <meta name="keywords" content="videojuegos, juegos, studio, indie">
+    <meta name="author" content="LittlePeopleStudios">
+    <link rel="stylesheet" href="estilo.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Raleway&display=swap" rel="stylesheet">
+    //Meter favicon
 </head>
 <body>
     <header>
-        <h1>Bienvenido a Mi Página Web</h1>
+        <h1>Bienvenido a Little People Studios</h1>
         <nav>
             <ul>
                 <li><a href="#inicio">Inicio</a></li>
                 <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#juegos">Juegos</a></li>
                 <li><a href="#acerca-de">Acerca de</a></li>
                 <li><a href="#contacto">Contacto</a></li>
             </ul>
@@ -150,6 +34,11 @@
         <section id="servicios">
             <h2>Servicios</h2>
             <p>Esta empresa ofrece muchos servicios de diferentes tipos.</p>
+        </section>
+
+        <section id="juegos">
+            <h2>Juegos</h2>
+            <p>Gnomes Out, Sweat Dreams, Per y Odo Game, Umbra</p>
         </section>
 
         <section id="acerca-de">
